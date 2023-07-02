@@ -1,0 +1,232 @@
+@import "bootstrap";
+
+@media (max-width: 1024px) {
+    /* body {
+        overflow: hidden;
+    } */
+}
+
+/* ------------------------------------------web page design------------------------------------------------------- */
+/* logo */
+.logo {
+    text-align: center;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+
+/* navbar */
+.navbar a {
+    text-decoration: none;
+    color: black;
+    padding: 4%;
+    font: normal normal 600 19px/26px Segoe UI;
+    padding-bottom: 0%;
+    padding-top: 0%;
+}
+
+.line {
+    position: relative;
+    height: 1px;
+    background-color: #0d0d0d;
+    margin: 20px 0;
+}
+
+/* ------------------------------------------------first page------------------------------------------------------- */
+.first {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* content */
+.left-cont-text {
+    color: #000000;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.left-cont-text h1 {
+    font-weight: bold;
+    font: normal normal 900 40px/54px Nunito Sans;
+}
+
+.left-cont-text p {
+    font: normal normal normal 18px/24px Nunito Sans;
+}
+
+.button {
+    border-radius: 33px;
+    padding: 3%;
+    text-decoration: none;
+    font: normal normal 600 23px/31px Nunito Sans;
+    font-size: large;
+}
+
+.blue {
+    color: #f8fcfd;
+    background: #70c9e3;
+}
+
+/* img */
+.pic {
+    width: 509px;
+    height: 518px;
+}
+
+/* ------------------------------------------------second page------------------------------------------------------- */
+.second h1 {
+    text-align: center;
+    font: normal normal bold 35px/47px Nunito Sans;
+}
+
+.container {
+    padding: 5%;
+}
+
+.custom-container {
+    padding: 40px;
+    background-color: #e9e7e7;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+.custom-container h3 {
+    text-align: center;
+    font: bold 18px/24px Nunito Sans;
+}
+
+.custom-container p {
+    font: normal normal normal 18px/24px Nunito Sans;
+    text-align: justify;
+}
+
+/* ------------------------------------------------third page------------------------------------------------------- */
+.third h1 {
+    text-align: center;
+    font: normal normal bold 35px/47px Nunito Sans;
+}
+
+.container {
+    padding-top: 20px;
+
+    .row {
+        display: flex;
+        justify-content: center;
+
+        .col {
+            text-align: center;
+            margin-bottom: 20px;
+
+            img {
+                width: 244px;
+                height: 188px;
+            }
+        }
+
+        .col-text h3 {
+            text-align: center;
+            font: bold 18px/24px Nunito Sans;
+        }
+
+        .col-text p {
+            font: normal normal normal 18px/24px Nunito Sans;
+            text-align: justify;
+        }
+
+    }
+}
+
+/* ------------------------------------------------fourth page------------------------------------------------------- */
+.fourth h1 {
+    text-align: center;
+    font: bold 35px/47px Nunito Sans;
+}
+
+.b {
+    padding: 0%;
+    font: bold 18px/24px Nunito Sans;
+}
+
+.details {
+    font: normal normal normal 16px/24px Nunito Sans;
+    text-align: justify;
+
+}
+
+.button {
+    border-radius: 33px;
+    padding: 3%;
+    text-decoration: none;
+    font: normal normal 600 23px/31px Nunito Sans;
+    font-size: large;
+}
+
+.blue {
+    color: #f8fcfd;
+    background: #70c9e3;
+}
+
+/* ------------------------------------------------fifth page------------------------------------------------------- */
+.fifth h1 {
+    text-align: center;
+    font: bold 35px/47px Nunito Sans;
+}
+
+.fifth-detail {
+    background-color: #ccc;
+    width: auto;
+    height: 100%;
+}
+
+a {
+    font: bold 900 40px/34px Nunito Sans;
+    padding: 2%;
+}
+
+.c img {
+    width: 15px;
+    height: 14px;
+}
+
+/* ------------------------------------------------sixth page------------------------------------------------------- */
+.sixth h1 {
+    text-align: center;
+    font: bold 35px/47px Nunito Sans;
+}
+
+.image-row {
+    display: flex;
+    padding-top: 0%;
+    justify-content: space-around;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+}
+
+.image-container img {
+    width: 120px;
+    height: 80px;
+    margin: 30px;
+}
+
+.image-details {
+    text-align: center;
+    font: normal normal bold 18px/24px Nunito Sans;
+}
+
+/* ------------------------------------------------ footer ------------------------------------------------- */
+.footer {
+    background-color: #000000;
+    width: 100%;
+    height: 50%;
+}
+
+.footer p {
+    color: #f8fcfd;
+    text-align: center;
+}
